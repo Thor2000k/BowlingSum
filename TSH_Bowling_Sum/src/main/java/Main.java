@@ -13,6 +13,7 @@ public class Main {
 
         if(args.length > 0){
             //tests.test1();
+            if(tests.test2()){ System.out.println("test2 successfull");}
             int fails = 0;
             int i = 0;
             for(i = 0; i < 10 ; i++){
